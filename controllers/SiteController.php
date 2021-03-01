@@ -59,6 +59,10 @@ class SiteController extends Controller
      *
      * @return string
      */
+
+    /* User setting action utk map ke index, akan link dengan folder view index
+    */
+
     public function actionIndex()
     {
         return $this->render('index');
